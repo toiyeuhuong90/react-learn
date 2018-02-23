@@ -1,0 +1,34 @@
+.navbar.navbar-default{
+    background: #60aa00;
+    padding: 0 15px;
+}
+.navbar-default ul.navbar-nav{
+    flex: auto;
+    flex-direction: row
+}
+
+.navbar-default ul li{
+    padding: 10px
+}
+
+.navbar-default ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.navbar-default ul li:hover{
+    background: #4a7d08;
+    transition: all 0.3s;
+}
+
+.navbar-default ul li.active{
+    background: #4a7d08;
+    transition: all 0.3s;
+}
+
+.navbar-default ul li.active a{
+    color: #fdc807;
+}

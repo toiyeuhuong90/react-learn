@@ -1,0 +1,73 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+body #root{
+    font-size: 13px;
+}
+
+.header-top-left {
+  float: left;
+  line-height: 50px;
+}
+
+.header-top-right {
+  float: right;
+}
+
+.header-top::after,
+.header-bottom::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.header-top-right > span.box-header-login {
+  float: left;
+  position: relative;
+  display: block;
+  color: #4a4a4a;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.header-top-right > a {
+  float: left;
+  position: relative;
+  display: block;
+  color: #4a4a4a;
+  line-height: 50px;
+}
+
+.header-top-right > span.box-header-login::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 20px;
+  background: #dcdcdc none;
+  position: relative;
+  float: right;
+  margin: 0 10px;
+  top: 15px;
+}
+
+.header-top-right i{
+font-size: 17px;
+position: relative;
+margin: 0 8px 0 0;
+top: 1px;
+}
+
+.header-bottom .logo-default{
+    float: left
+}
+
+.header-bottom .filter{
+    float: right
+}
+
+.header-bottom{
+    margin-bottom: 20px
+}

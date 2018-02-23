@@ -1,0 +1,26 @@
+.cms-home .wrapper{
+    margin-bottom: 20px
+}
+.cms-home .slick-slide img{
+    max-width: 100%;
+    width: 100%
+}
+.cms-home .thumbnail.product-img img{
+    max-width: 100%;
+    width: 100%;
+    min-height: 150px;
+    line-height: 150px;
+    padding: 10px 0
+}
+
+.cms-home .thumbnail.product-img{
+    margin-top: 20px
+}
+
+.cms-home .thumbnail.product-img:hover{
+    transition: all 0.3s;
+    box-shadow: 0 0 20px 2px rgba(182, 188, 199, 0.5);
+    -moz-box-shadow: 0 0 20px 2px rgba(182, 188, 199, 0.5);
+    -webkit-box-shadow: 0 0 20px 2px rgba(182, 188, 199, 0.5);
+    -o-box-shadow: 0 0 20px 2px rgba(182, 188, 199, 0.5);
+}

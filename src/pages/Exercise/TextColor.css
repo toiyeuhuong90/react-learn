@@ -1,0 +1,14 @@
+#content{
+    border: 2px red solid;
+}
+
+span{
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.act{
+    border: 2px black solid;
+    transition: all 0.2s;
+}
