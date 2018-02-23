@@ -4,6 +4,7 @@ import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
 import ProductListPage from "./pages/ProductListPage/ProductListPage";
 import ProductActionPage from "./pages/ProductActionPage/ProductActionPage";
 import TextColor from "./pages/Exercise/TextColor";
+import Form from "./pages/Exercise/Form/Form"
 
 const routes = [
   {
@@ -32,6 +33,11 @@ const routes = [
     path: "/txt-color",
     exact: false,
     main: () => <TextColor />
+  },
+  {
+    path: "/form",
+    exact: false,
+    main: () => <Form />
   },
   {
     path: "",

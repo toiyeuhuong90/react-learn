@@ -17,6 +17,11 @@ const menus = [
     name: "Text Color",
     to: "/txt-color",
     exact: false
+  },
+  {
+    name: "Form",
+    to: "/form",
+    exact: false
   }
 ];
 
