@@ -22,6 +22,11 @@ const menus = [
     name: "Form",
     to: "/form",
     exact: false
+  },
+  {
+    name: "Manage Project",
+    to: "/manage-work",
+    exact: false
   }
 ];
 

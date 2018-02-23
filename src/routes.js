@@ -4,7 +4,8 @@ import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
 import ProductListPage from "./pages/ProductListPage/ProductListPage";
 import ProductActionPage from "./pages/ProductActionPage/ProductActionPage";
 import TextColor from "./pages/Exercise/TextColor";
-import Form from "./pages/Exercise/Form/Form"
+import Form from "./pages/Exercise/Form/Form";
+import Project from "./pages/Exercise/Project/Project"
 
 const routes = [
   {
@@ -38,6 +39,11 @@ const routes = [
     path: "/form",
     exact: false,
     main: () => <Form />
+  },
+  {
+    path: "/manage-work",
+    exact: false,
+    main: () => <Project />
   },
   {
     path: "",
